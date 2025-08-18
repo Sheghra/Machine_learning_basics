@@ -15,7 +15,7 @@ df['Go']=df['Go'].map(d)
 #separate the X=features and Y=target columns 
 #basically feautres list will columns using which we will make the predictions and target column will
 #contain the values which we want to predict
-feature=['Age','Experience','Rank','Nationality']
+feature=['Age', 'Experience', 'Rank', 'Nationality']
 x=df[feature]
 y=df['Go']
 
